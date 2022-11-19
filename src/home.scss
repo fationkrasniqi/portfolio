@@ -1,0 +1,208 @@
+
+.test{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.test1{
+    font-family: 'Press Start 2P';
+
+}
+
+.right{
+    display: flex;
+    
+    padding-top: 1.5rem;
+    padding-left: 40rem;
+}
+
+.skills{
+    padding-top: 4rem;
+}
+
+.left{
+    color: white;
+    display: flex;
+}
+
+h2{
+    font-family: 'Press Start 2P';
+    color: white;
+
+}
+h1{
+    font-family: 'Press Start 2P';
+    color: white;
+}
+
+h3{color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+h5{
+    color: white;
+    // border-bottom: 1px  solid darkcyan;
+    
+    padding-bottom: 5px ;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.firstphotof{
+    height: 10rem;
+    width: 10rem;
+}
+
+.secondphotok{
+    height: 10rem;
+    width: 10rem;
+}
+
+.work{
+    border-bottom: 2px solid darkcyan;
+}
+
+.error{
+    color:white;
+    font-family: 'Press Start 2P';
+
+}
+.header{
+    display: flex;
+      flex-direction: row;
+    //   gap: 54rem;
+    //   align-items: center;
+      text-align: center;
+      padding-left: 3rem;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // text-align: center;
+    border-bottom: 2px solid darkcyan;
+    padding-left: 3rem;
+    gap: 8rem;
+    padding-top: 3rem;
+    
+}
+
+img{
+    width: 35rem;
+    height: 30rem;
+    padding-bottom: 9rem;
+    padding-left: 7rem;
+    padding-right: 12rem;
+    // border-radius: 25%;
+    
+}
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    // gap: 30rem;
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 35rem;
+    padding-top: 1rem;
+    padding-left: 7rem;
+    border-top: 2px solid darkcyan;
+    }
+
+a{
+    color: #5074f9;
+    width: 9rem;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    font-family: 'Press Start 2P';
+
+}
+a:hover{
+    color: yellow;
+}
+
+@media (max-width: 991px) { 
+
+
+    .text{
+// color: red;  
+font-size: 1.3rem;  }
+
+.left1{
+    padding-bottom: 1rem;
+}
+.right{
+    display: flex;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+  
+}
+
+a{
+    font-size: 0.7rem;
+    width: 8rem;
+}
+
+.header{
+    display: flex;
+      flex-direction: column;
+    //   gap: 54rem;
+      align-items: center;
+      text-align: center;
+      padding-left: 0rem;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    width: 21rem;
+    height: 15rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-bottom: 2px solid darkcyan;
+    padding-left: 2rem;
+    gap: 1rem;
+    padding-top: 0rem;
+    padding-right: 1rem;
+}
+
+.skills {
+    padding-top: 2rem;
+}
+
+.resume{
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+
+}
+
+h1{
+    font-size: 1rem;
+}
+
+.error{
+    display: none;
+}
+
+.footer{
+    gap: 0;
+    padding-left: 2rem;
+}
+
+}
