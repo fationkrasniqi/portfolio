@@ -40,7 +40,8 @@ function App() {
    <div className="work">
            <h1>Work experience</h1>
            <h3 >Starlabs internship</h3>
-           <h5>Front-end Developer | 2022 </h5>
+           <h5>Front-end Developer | April 2022 - Jun 2022 </h5>
+
            <h3>Freelance</h3>
            <h5>Front-end Developer | 2021 - Present</h5>
    </div>

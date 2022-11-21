@@ -1,4 +1,6 @@
 
+
+
 .test{
     font-family: 'Roboto Mono', monospace;
 }
@@ -130,11 +132,19 @@ a:hover{
 }
 
 @media (max-width: 991px) { 
-
-
+     
+    .container{
+        
+            max-width: 100%;
+            overflow-x: hidden;
+          
+    }
+   
     .text{
 // color: red;  
-font-size: 1.3rem;  }
+padding-bottom: 0.4rem;
+padding-left: 1.3rem;
+font-size: 0.5rem;  }
 
 .left1{
     padding-bottom: 1rem;
@@ -147,13 +157,13 @@ font-size: 1.3rem;  }
 }
 
 a{
-    font-size: 0.7rem;
-    width: 8rem;
+    font-size: 0.5rem;
+    width: 4rem;
 }
 
 .header{
     display: flex;
-      flex-direction: column;
+      flex-direction: row;
     //   gap: 54rem;
       align-items: center;
       text-align: center;
@@ -202,7 +212,7 @@ h1{
 
 .footer{
     gap: 0;
-    padding-left: 2rem;
+    padding-left: 6rem;
 }
 
 }
