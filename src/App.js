@@ -47,8 +47,8 @@ function App() {
    </div>
    <div className="projects">
     <h1>Portfolio</h1>
-    <a href="https://github.com/fationkrasniqi/foodorder" target="_blank">FoodOrder</a>
-    <h3>As part of Starlabs internship, we the group of interns developed this e-commerce platform.This project is developed on the idea that every business that wishes to sell online products can use this web app. Food Order Website using MERN Stack</h3>
+    <a href="https://rickandmorty.fationkrasniqi.dev/" target="_blank">Rick and morty</a>
+    <h3>View Rick and Morty's animated series information about Top Cast and Characters. Built with Rickandmorty - REST API. View Characters, search by input, view information and Top Cast.</h3>
     <a href="https://movie.fationkrasniqi.dev/" target="_blank">Movie</a>
     <h3>Movie App is a ReactJS web application developed to display information about any movie. It's built on top of TMDB API, with a great UX, very functional and a Mobile-First design.</h3>
     <a href="https://github.com/fationkrasniqi/" target="_blank">Onlineshop</a>
