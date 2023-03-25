@@ -39,25 +39,28 @@ function App() {
    <div className="resume">
    <div className="work">
            <h1>Work experience</h1>
-           <h3 >Starlabs internship</h3>
-           <h5>Front-end Developer | April 2022 - Jun 2022 </h5>
-
-           <h3>Freelance</h3>
-           <h5>Front-end Developer | 2021 - Present</h5>
+           <h3 className='workname' >Digital School / Shkolla Digjitale</h3>
+           <h3>Instructor | 2023 </h3>
+           <h3 className='workname' >Dolphins Group</h3>
+           <h3>Frontend Developer | 2023 </h3>
+           <h3 className='workname' >Starlabs internship</h3>
+           <h3>Front-end Developer | 2022 </h3>
+           <h3 className='workname'>Freelance</h3>
+           <h3>Front-end Developer | 2021 - Present</h3>
    </div>
    <div className="projects">
     <h1>Portfolio</h1>
-    <a href="https://rickandmorty.fationkrasniqi.dev/" target="_blank">Rick and morty</a>
+    <a className="portfoliohref" href="https://rickandmorty.fationkrasniqi.dev/" target="_blank">Rick and morty</a>
     <h3>View Rick and Morty's animated series information about Top Cast and Characters. Built with Rickandmorty - REST API. View Characters, search by input, view information and Top Cast.</h3>
-    <a href="https://movie.fationkrasniqi.dev/" target="_blank">Movie</a>
+    <a className="portfoliohref" href="https://movie.fationkrasniqi.dev/" target="_blank">Movie</a>
     <h3>Movie App is a ReactJS web application developed to display information about any movie. It's built on top of TMDB API, with a great UX, very functional and a Mobile-First design.</h3>
-    <a href="https://github.com/fationkrasniqi/" target="_blank">Onlineshop</a>
-    <h3>Comming soon</h3>
+    <a className="portfoliohref" href="https://www.youtube.com/watch?v=hpb_CJJFGBM" target="_blank">Onlineshop</a>
+    <h3>E-commerce site have the following features: User Authentication (including Google Singin) Secure Payments (including Apple and Google Pay) Email Invoicing Users can interact with products, see their order history, and more! Front End: Next.js / React URql. Back End: Strapi/ Postgres GraphQL/ Auth0/ Stripe/ Cloudinary</h3>
 
    </div>
    </div>
    <div className="footer">
-     <a href="https://www.linkedin.com/in/fation-krasniqi/" target="_blank">linkedin</a>
+     <a  href="https://www.linkedin.com/in/fation-krasniqi/" target="_blank">linkedin</a>
      <a href="https://github.com/fationkrasniqi" target="_blank">github</a>
      <a href="mailto:fationkrasniqi777@gmail.com">mail</a>
 

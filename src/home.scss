@@ -1,4 +1,7 @@
-
+.workname{
+    color: #5074f9;
+    font-size: 20px;
+}
 
 
 .test{
@@ -108,17 +111,16 @@ img{
     padding-left: 3rem;
 }
 
-.footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    gap: 35rem;
-    padding-top: 1rem;
-    padding-left: 7rem;
-    border-top: 2px solid darkcyan;
-    }
-
+    .footer{
+        border-top: 2px solid darkcyan;
+    
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        padding-top: 20px;
+        }
 a{
     color: #5074f9;
     width: 9rem;
@@ -131,7 +133,7 @@ a:hover{
     color: yellow;
 }
 
-@media (max-width: 991px) { 
+@media (max-width: 1600px) { 
      
     .container{
         
@@ -157,7 +159,7 @@ font-size: 0.5rem;  }
 }
 
 a{
-    font-size: 0.5rem;
+    font-size: .5rem;
     width: 4rem;
 }
 
@@ -212,7 +214,11 @@ h1{
 
 .footer{
     gap: 0;
-    padding-left: 6rem;
+    padding-left: 1rem;
+}
+
+.portfoliohref{
+    font-size: 0.9rem;
 }
 
 }
